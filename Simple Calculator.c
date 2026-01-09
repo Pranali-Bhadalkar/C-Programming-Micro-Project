@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int a, b, ch;
+printf("enter the 2 numbers a and b");
+scanf("%d %d",&a,&b);
+printf("enter choice");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:printf("add of %d & %d=%d", a, b, a+b);
+break;
+case 2:printf("sub of %d & %d=%d", a, b, a-b);
+break;
+case 3:printf("mul of %d & %d=%d", a, b, a*b);
+break;
+case 4:printf("div of %d & %d=%d", a, b, a%b);
+break;
+defant:printf("invalied operators");
+break;
+}
+return 0;
+}
+
